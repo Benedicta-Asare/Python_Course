@@ -20,3 +20,16 @@ print("\nMultiples of 3 from 3 to 30:")
 multiples = list(range(3,31,3))
 for num in multiples:
     print(num)
+
+#4-8. Cubes
+print("\nThe first 10 cubes:")
+cubes = []
+for value in range(1,11):
+    cube = value ** 3
+    cubes.append(cube)
+    print(cube)
+
+#4-9. Cube Comprehension
+print("\nList of the first 10 cubes:")
+cubes = [value ** 3 for value in range(1,11)]
+print(cubes)
