@@ -1,20 +1,20 @@
 #7-1. Rental Car
 
-#message = input("What kind of rental car would you like? ")
+message = input("What kind of rental car would you like? ")
 
-#print(f"\nLet me see if I can find you a {message}.")
+print(f"\nLet me see if I can find you a {message}.")
 
 
 #7-2. Restaurant Seating
 
-#number = input("\nHow many people are in your dinner group? ")
+number = input("\nHow many people are in your dinner group? ")
 
-#number = int(number)
+number = int(number)
 
-#if number > 8:
-#    print("\nYou'll have to wait for a table.")
-#else:
-#    print("Your table is ready.")
+if number > 8:
+    print("\nYou'll have to wait for a table.")
+else:
+    print("Your table is ready.")
 
 
 #7-3. Multiples of Ten
