@@ -27,16 +27,16 @@ def make_album(artist_name, album_title, num_of_songs=None):
 
     return album
 
-music_album = make_album('sia', 'unstoppable')
+music_album = make_album('sia', 'this is acting')
 print(music_album)
 
-music_album = make_album('rihanna', 'what now')
+music_album = make_album('rihanna', 'unapologetic')
 print(music_album)
 
-music_album = make_album('adele', 'hello')
+music_album = make_album('adele', '30')
 print(music_album)
 
-music_album = make_album('beyonce', 'halo', 20)
+music_album = make_album('alicia keys', 'girl on fire', 5)
 print(music_album)
 
 
